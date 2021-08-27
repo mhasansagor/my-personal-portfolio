@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap");
 
+body {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
 h1 {
   font-size: 50px;
 }
@@ -16,6 +21,13 @@ h1 {
   padding: 5%;
 }
 
+.half-width img {
+  width: 80%;
+}
+
+.h1-ex {
+  padding: 5%;
+}
 .link-button {
   text-decoration: none;
   background-image: linear-gradient(orange, tomato);
@@ -33,4 +45,11 @@ h1 {
   border-radius: 10px;
   box-shadow: 10px 10px 40px gray;
   border-left: 5px solid;
+}
+
+footer {
+  text-align: center;
+  font-weight: 400;
+  background-color: orange;
+  margin-bottom: 0%;
 }
