@@ -29,6 +29,8 @@ h1 {
   padding: 5%;
 }
 .link-button {
+  display: flex;
+  width: fit-content;
   text-decoration: none;
   background-image: linear-gradient(orange, tomato);
   padding: 10px 40px;
